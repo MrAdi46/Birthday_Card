@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Card</title>
+  <link rel="stylesheet" href="./index.css">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="card">
+    <div class="outside">
+      <div class="front">
+        <p><b>Happy Birthday Shreya</b></p>
+        <div class="cake">
+          <div class="top-layer"></div>
+          <div class="middle-layer"></div>
+          <div class="bottom-layer"></div>
+          <div class="candle"></div>
+        </div>
+      </div>
+      <div class="back"></div>
+    </div>
+    <div class="inside">
+      <p style="text-align:left;"><b>Dear</b> Shreya,<br>
+        Happy Birthday to one of the coolest people I know! 🎉 Your energy and positivity make every moment better, and I’m so glad to call you my friend. Wishing you a day filled with laughter, great times, and all the things that make you smile. Cheers to another fantastic year ahead! <b>Happy Birthday!</b><br>
+        <br>
+        <b>Your Friend,</b><br>
+        <i>Aditya</i>
+      </p>
+      <h1>&#127873;</h1>
+    </div>
+  </div>
+  <script>
+    document.querySelector('.card').addEventListener('click', function() {
+      this.classList.toggle('flipped');
+    });
+  </script>
+</body>
+
+</html>
